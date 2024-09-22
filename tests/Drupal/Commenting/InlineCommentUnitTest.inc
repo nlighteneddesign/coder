@@ -126,3 +126,6 @@ $x = 2;
 // And here as well.
 // spell-checker:ignore bananarama
 $x = 3;
+// Different keword.
+// spellchecker:disable-next-line
+$x = 4;
