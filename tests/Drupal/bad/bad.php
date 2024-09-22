@@ -861,4 +861,11 @@ function test29(
   echo "Hello";
 }
 
+/**
+ * Nullable types should be annotated.
+ */
+function test30(TestType $a = NULL) {
+  echo "Hello";
+}
+
 ?>
