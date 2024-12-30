@@ -839,26 +839,6 @@ enum aBad_NameForAnEnum {
 }
 
 /**
- * Test PHP attributes.
- */
-class TestPhpAttributes {
-
-  /**
-   * Bar property.
-   */
-  #[NotBlank]
-    private bool $bar;
-
-  /**
-   * Tests method with PHP attribute and docblock.
-   */
-  #[\ReturnTypeWillChange]
-    public function attributes(): void {
-    }
-
-}
-
-/**
  * A test class.
  */
 class ScopeKeyword {
